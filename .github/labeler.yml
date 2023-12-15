@@ -1,0 +1,23 @@
+ReadMe:
+  - "readme.md"
+
+CodeEditor:
+  - ".vscode/**"
+
+Tests:
+  - any: ["test/**", "**/*.test.ts", "**/*.test.js"]
+
+IncludesTest:
+  - all: ["src/**", "test/**"]
+
+Actions:
+  - ".github/**"
+
+Types:
+  - "types/**"
+
+Packages:
+  - "**/**/package*.json"
+
+Codeowners:
+  - ".github/CODEOWNERS"
