@@ -1,0 +1,8 @@
+node_modules
+jest.config.js
+*.test.ts
+*.test.js
+.huskey
+*.env
+.env
+tests

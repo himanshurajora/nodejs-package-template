@@ -1,0 +1,37 @@
+{
+  "name": "node-package-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "concurrently \"tsc --watch\" \"node index.js\"",
+    "build": "tsc",
+    "start": "node index",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "29.5.11",
+    "concurrently": "8.2.2",
+    "husky": "8.0.0",
+    "ts-jest": "29.1.1",
+    "typescript": "5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "engineStrict": true
+}
